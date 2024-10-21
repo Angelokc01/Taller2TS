@@ -1,0 +1,28 @@
+/* Estilos del menú */
+.navbar {
+    background-color: #0fa8d3; 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    left: 0;
+}
+
+
+/* estilos de la tabla */
+
+#series-table{
+    background-color: rgba(189, 189, 189, 0.152);
+}

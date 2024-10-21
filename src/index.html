@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Series</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Vincular al archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK0uWq_Cbez4M3EE3RMxWyqddjrMZkMaRzFA&s" alt="TV Icon">
+        <h1>TV Series</h1>
+    </div>
+
+    <div class="container p-1 m-5 ">
+        <!-- Menú de navegación -->
+    
+        <div class="row">
+            <!-- Tabla de series -->
+            <div class="col-md-8">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Canal</th>
+                            <th scope="col">Temporadas</th>
+                        </tr>
+                    </thead>
+                    <tbody id="series-table">
+                        <!-- Las filas se insertarán aquí mediante JavaScript -->
+                    </tbody>
+                </table>
+                <p><strong>Seasons average:</strong> <span id="seasons-average"></span></p>
+            </div>
+
+            <!-- Card con información de la serie -->
+            <div class="col-md-4">
+                <div class="card" id="series-card">
+                    <img src="" class="card-img-top" alt="Serie" id="card-image">
+                    <div class="card-body">
+                        <h5 class="card-title" id="card-title"></h5>
+                        <p class="card-text" id="card-description"></p>
+                        <a href="#"  id="card-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
